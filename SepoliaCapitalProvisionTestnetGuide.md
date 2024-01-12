@@ -39,15 +39,26 @@ As parameters:
 In the example in the picture, 100 stETH (indicated in WEI) is minted to the address 0xa4DB...2259.
 
 And finally we need to click “Write” and confirm a transaction in the wallet.
+![Screenshot 2024-01-11 at 9 52 32 PM](https://github.com/MorpheusAIs/Morpheus/assets/124720530/bf1fb4a4-ac83-4ae0-9a0c-644d2f3c21f0)
 
+NOTE: We minted 2.25 stETH 
 
 ## How to check stETH balance?
-We need to go to the [stETH](https://sepolia.etherscan.io/address/0xe6D01D086a844a61641C75f1BCA572e7aa70e154#readContract) contract, open the “Contract” tab, then the “Read Contract” tab. Don't forget to connect your wallet, which should have enough native token to pay for gas.
+We need to go to the [stETH](https://sepolia.etherscan.io/address/0xe6D01D086a844a61641C75f1BCA572e7aa70e154#readContract) contract, open the “Contract” tab, then the “Read Contract” tab. Don't forget to connect your wall
+
+
+et, which should have enough native token to pay for gas.
 
 ![stETHContract](https://github.com/antonbosss/fantastic-bassoon/blob/SepoliaTestnetGuide/check-stETH.png)
 
 It is necessary to call the function `balanceOf()` and specify in the `account_` field your address. As a result, we will find out how many tokens are on the wallet.
 In the example on the picture, the 0xa4DB...2259 address has 1000 stETH indicated in WEI.
+
+NOTE: After Minting 2.25 stETH no quantity is showing as zero.
+
+![Screenshot 2024-01-11 at 9 51 13 PM](https://github.com/MorpheusAIs/Morpheus/assets/124720530/1d0d9d23-cf70-4772-b087-c49e249c0a06)
+
+
 
 Another way of checking is to add stETH token in your web3 wallet. For Metamask wallet, please follow steps from this [guide](https://support.metamask.io/hc/en-us/articles/360015489031-How-to-display-tokens-in-MetaMask#h_01FWH492CHY60HWPC28RW0872H) and fill stETH token’s contract address `0xe6D01D086a844a61641C75f1BCA572e7aa70e154`
 
